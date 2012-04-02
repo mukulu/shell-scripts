@@ -25,7 +25,7 @@ elif [ "$1" = "--help" ];then
 	echo "List all text files in the target directory whose contents"
 	echo "contains one or more of the \"word-signature\" "
 	echo "note: word-signature is a single word."
-	echo "It's a simple too but useful"
+	echo "It's a simple tool but useful"
 	echo ""
 	echo "Report bugs or areas of improvement to <john.f.mukulu@gmail.com>"
 	echo "Writer: John F. Mukulu <john.f.mukulu@gmail.com>"
