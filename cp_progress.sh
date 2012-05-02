@@ -24,7 +24,7 @@
 #       
 cp_p()
 {
-   strace -q -ewrite cp -- "${1}" "${2}" 2>&1 \
+   strace -q -ewrite cp -av -- "${1}" "${2}" 2>&1 \
       | awk '{
         count += $NF
             if (count % 10 == 0) {
